@@ -1,6 +1,6 @@
 # Challenge: pwnbox (468 Points)
 
-### Category: Network / Server Exploitation
+### Category: Pwn
 
 ### Description
 In this challenge, I needed to "pwn the server to get the flag" by exploring server ports between 7000 and 8000 on `challenges.ctf.sikt.no`.
