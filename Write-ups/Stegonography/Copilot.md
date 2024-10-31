@@ -1,6 +1,6 @@
 # Challenge: Copilot (432 Points)
 
-### Category: Forensics
+### Category: Stegonography
 
 ### Description
 In this challenge, a GIF file named `Copilot.gif` was provided with the hint: "Oh, news from Microsoft. What could this be about?" This suggested that the solution might involve analyzing the GIF file for hidden information related to Microsoft’s Copilot.
