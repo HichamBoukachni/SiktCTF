@@ -1,54 +1,53 @@
-# ctf.sikt.no CTF - Capture The Flag
+# ctf.sikt.no SiktCTF - Capture The Flag
 
-## 📅 Når
-**Dato:** 07.10.2024 - 28.10.2024
+## 📅 When
+**Date:** 07.10.2024 - 28.10.2024
 
-## 📝 Hva er ctf.sikt.no?
-SiktCTF er en Capture The Flag (CTF) konkurranse, en spennende, sikkerhetsfokusert utfordring som inviterer deltakere til å finne og utnytte sårbarheter i fiktive systemer. Formålet med denne CTF-en var å gi deltakerne en praktisk innføring i cybersikkerhet, samt utvikle ferdigheter innenfor sårbarhetsanalyse, kryptografi, nettkontroll, og mer. Utfordringene var laget for å dekke et bredt spekter av ferdighetsnivåer, fra nybegynnere til mer erfarne sikkerhetsentusiaster. SiktCTF er arrangert som en del av Cybersecurity Awareness Month, levert av det norske senteret for cybersikkerhet for forskning og utdanning (eduCSC).
+## 📝 What is ctf.sikt.no?
+SiktCTF is a Capture The Flag (CTF) competition, an exciting, security-focused event that invites participants to find and exploit vulnerabilities in fictional systems. The purpose of this CTF was to provide participants with hands-on experience in cybersecurity while developing skills in vulnerability analysis, cryptography, web control, and more. The challenges were designed to cater to a wide range of skill levels, from beginners to more experienced security enthusiasts. SiktCTF is organized as part of Cybersecurity Awareness Month, delivered by the Norwegian Center for Cybersecurity in Research and Education (eduCSC).
 
-## 🕹️ Regler
-For å delta i ctf.sikt.no CTF måtte deltakerne følge disse reglene:
+## 🕹️ Rules
+To participate in the ctf.sikt.no CTF, participants had to follow these rules:
 
-1. **Flaggformat**: Flaggene følger dette regex-mønsteret: `/^SiktCTF{.*}$/`.
-2. **Eksempel på gyldig flagg**: `SiktCTF{th1s_i5_4_fl4g'+!-.@#$%?}`. Alle flagg uten dette formatet blir ansett som ugyldige.
-3. **Lagstørrelse**: Lag kan ha opptil 5 medlemmer for å kvalifisere til premier (se premiedetaljer for mer informasjon).
-4. **Forbud mot DDoS**: DDoS-angrep er strengt forbudt.
-5. **Forbud mot brute-forcing**: Brute-forcing på serverutfordringer er ikke tillatt, med mindre det uttrykkelig er tillatt.
-6. **Ingen samarbeid mellom lag**: Samarbeid mellom ulike lag er ikke tillatt.
-7. **Forbud mot å hamstre flagg**: Å hamstre flagg er ikke tillatt.
-8. **Første flagg**: Det første flagget er kommentert bort på denne siden.
-9. **Endelige avgjørelser**: Alle avgjørelser tatt av SiktCTF-administratorene ved uenigheter er endelige.
+1. **Flag Format**: Flags follow this regex pattern: `/^SiktCTF{.*}$/`.
+2. **Example of a Valid Flag**: `SiktCTF{th1s_i5_4_fl4g'+!-.@#$%?}`. All flags without this format are considered invalid.
+3. **Team Size**: Teams can have up to 5 members to qualify for prizes (see prize details for more information).
+4. **No DDoS Attacks**: DDoS attacks are strictly prohibited.
+5. **No Brute-Forcing**: Brute-forcing on server challenges is not allowed unless explicitly permitted.
+6. **No Team Collaboration**: Collaboration between different teams is not allowed.
+7. **No Flag Hoarding**: Hoarding flags is not allowed.
+8. **First Flag**: The first flag is commented out on this page.
+9. **Final Decisions**: All decisions made by SiktCTF administrators in case of disagreements are final.
 
-### Generelle regler
+### General Rules
 
-1. **Respekt for alle**: Behandle alle med respekt; trakassering av noe slag tolereres ikke. Kontakt en admin hvis du har bekymringer.
-2. **Flaggdeling**: Ikke post flagg i noen kanaler.
-3. **Ingen piratkopiering**: Deling av linker til piratkopiert programvare eller verktøy er forbudt.
-4. **Trygt innhold**: Hold alt innhold på SiktCTF sine kommunikasjonsplattformer SFW (Safe For Work).
-5. **Skriv ikke write-ups før konkurransen er over**.
-6. **Ikke hack CTF-infrastrukturen**.
-7. **Ingen reklame**: Ikke reklamer for andre CTF-er, Discord-servere eller arrangementer uten godkjenning fra en arrangør eller admin.
-8. **Konsekvenser**: Brudd på noen av disse reglene kan resultere i sletting av meldinger eller utestengelse fra Discord-serveren og SiktCTF.
-9. **Endelige avgjørelser**: Adminenes avgjørelser er endelige i alle uenigheter.
-10. **Ha det gøy!**
+1. **Respect Everyone**: Treat everyone with respect; harassment of any kind is not tolerated. Contact an admin if you have concerns.
+2. **Flag Sharing**: Do not post flags in any channels.
+3. **No Piracy**: Sharing links to pirated software or tools is forbidden.
+4. **Safe Content**: Keep all content on SiktCTF communication platforms SFW (Safe For Work).
+5. **No Write-ups Before the Competition Ends**.
+6. **Do Not Hack the CTF Infrastructure**.
+7. **No Advertising**: Do not advertise other CTFs, Discord servers, or events without approval from an organizer or admin.
+8. **Consequences**: Violating any of these rules may result in message deletion or bans from the Discord server and SiktCTF.
+9. **Final Decisions**: Admin decisions are final in all disputes.
+10. **Have Fun!**
 
-Følg disse reglene for en trygg og rettferdig konkurranseopplevelse i SiktCTF.
+Follow these rules for a safe and fair competition experience in SiktCTF.
 
 
-## 🔍 Utfordringer
-Konkurransen besto av flere kategorier, som inkluderte:
-- **OSINT**: Bruk av åpen kilde etterretning for å hente ut informasjon og løse utfordringer.
-- **Web**: Utfordringer knyttet til nettsikkerhet, inkludert sårbarheter på websider.
-- **Steganography**: Skjult informasjon i filer som krever spesielle teknikker for å avsløre.
-- **Reverse**: Analyse og dekonstruksjon av binære filer for å forstå og løse logiske utfordringer.
-- **Forensics**: Analyse av digitale spor og filer for å hente ut informasjon.
-- **Misc**: Varierte utfordringer som kombinerer flere disipliner innen cybersikkerhet.
-- **Cryptography**: Oppgaver relatert til koding og dekoding av krypterte meldinger.
-- **Pwn**: Utnyttelse av sårbarheter i binære filer gjennom praktisk hacking.
+## 🔍 Challenges
+The competition consisted of several categories, including:
+- **OSINT**: Use of open-source intelligence to gather information and solve challenges.
+- **Web**: Challenges related to web security, including web page vulnerabilities.
+- **Steganography**: Hidden information in files requiring special techniques to reveal.
+- **Reverse**: Analysis and deconstruction of binary files to understand and solve logical challenges.
+- **Forensics**: Analysis of digital traces and files to extract information.
+- **Misc**: Various challenges that combine multiple disciplines within cybersecurity.
+- **Cryptography**: Tasks related to encoding and decoding encrypted messages.
+- **Pwn**: Exploiting vulnerabilities in binaries through practical hacking.
 
-## 🙏 Takk til arrangørene
+## 🙏 Thanks to the Organizers
 
-En stor takk til arrangørene av SiktCTF for et fantastisk gjennomført arrangement! Det var en glede å delta, og utfordringene var både spennende og lærerike. Takk for all innsatsen dere la ned for å lage en CTF-opplevelse som både utfordret og inspirerte oss til å utforske cybersikkerhet i dybden.
+A big thank you to the organizers of SiktCTF for a fantastically executed event! It was a pleasure to participate, and the challenges were both exciting and educational. Thank you for all the effort you put into creating a CTF experience that challenged and inspired us to delve deeper into cybersecurity.
 
-En spesiell takk til eduCSC for støtten under Cybersecurity Awareness Month og for å skape et trygt og motiverende læringsmiljø. Gleder meg allerede til neste gang!
-
+A special thanks to eduCSC for the support during Cybersecurity Awareness Month and for creating a safe and motivating learning environment. Already looking forward to next time!
