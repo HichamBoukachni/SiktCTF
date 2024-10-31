@@ -21,9 +21,11 @@ This challenge is presented in Norwegian, adding an extra layer of complexity.
    ![What3Words Location](../Bilder/Picture8.png)
 
 3. **Constructing and Submitting the Flag**:
-   The correct flag was `SiktCTF{høgåshytta}`, which was accepted.
+   The correct flag was `SiktCTF{høiåshytta}`, which was accepted.
    
+![Flag](../Bilder/Picture9.png)  
 ![Accepted](../Bilder/Picture10.png)
+
 
 ### Takeaways
 This task demonstrated the use of **metadata analysis** with ExifTool and **What3Words** for geolocation.
