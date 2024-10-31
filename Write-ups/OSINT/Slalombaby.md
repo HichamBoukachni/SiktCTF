@@ -14,10 +14,11 @@ This challenge was a classic **OSINT** task that required identifying a specific
 1. **Understanding the Task**:
    Based on the description, we needed to identify a mountain from an image and the clue about a previous visit. The flag format was given as `SiktCTF{themountain}`.
 
+![Slalombaby Image](../Bilder/Picture1.png)
+
 2. **Downloading and Analyzing the Image**:
    I downloaded the image labeled `slalombaby`, which showed a snowy mountain landscape with a skier. 
 
-   ![Slalombaby Image](../Bilder/Picture1.png)
 
 3. **Using Reverse Image Search**:
    Using **Google Reverse Image Search**, I uploaded the image to find any matches that could help identify the location.
