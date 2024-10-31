@@ -39,7 +39,8 @@ These challenges required finding three separate flags within an Android applica
    - **Shiva2 (Second Flag)**: `SiktCTF{TheFinalDaysAreUponUs}`
    - **Shiva3 (Third Flag)**: `SiktCTF{InTheEndHopePrevails}`
    ![Grep Output](../Bilder/Picture17.png)
-   I submitted each of these flags for the respective challenges, and they were all accepted.
+   
+I submitted each of these flags for the respective challenges, and they were all accepted.
 
 ### Summary of Flags
 - **Shiva**: `SiktCTF{UnlimitedPower}`
