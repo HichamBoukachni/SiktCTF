@@ -39,6 +39,7 @@ In this challenge, I needed to "pwn the server to get the flag" by exploring ser
 6. **Exploring the User’s Home Directory**:
    I explored the user's home directory and found several hidden files, including `.bash_history`. Examining this file provided insights into previous commands executed on the server, hinting at the usage of Git commands and a repository directory.
 
+   ![Bash History](../Bilder/Picture43.png)
    ![Bash History](../Bilder/Picture44.png)
 
 7. **Investigating the Git Repository**:
