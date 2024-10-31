@@ -19,12 +19,14 @@ In this challenge, I encountered a sequence of unfamiliar symbols and was tasked
    
    > **"I am capture the flag fox with green tunic"**
 
+   ![Decrypted Message](../Bilder/Picture49.png)
    ![Decrypted Message](../Bilder/Picture51.png)
+   
 
-3. **Interpreting the Flag:**
+4. **Interpreting the Flag:**
    After testing different flag formats based on this message, I realized that the challenge prompt's instruction to "write what you find" implied a direct submission. Thus, I formatted the answer accordingly.
 
-4. **Submitting the Flag:**
+5. **Submitting the Flag:**
    Based on the message and following the flag format, I submitted: SiktCTF{FoxWithGreenTunic}
    
 ![Final Flag Submission](../Bilder/Picture52.png)
