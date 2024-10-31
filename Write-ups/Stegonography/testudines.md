@@ -1,6 +1,6 @@
 # Challenge: Testudines (417 Points)
 
-### Category: Graphics / Turtle
+### Category: Stegonography
 
 ### Description
 This challenge provided two image files, `tortoise.jpeg` and `turtle.jpeg`, along with the hint: "Look at these cute turtles (tortoises?) I found on the interwebs." The challenge hinted at using turtle graphics to reveal a hidden message.
