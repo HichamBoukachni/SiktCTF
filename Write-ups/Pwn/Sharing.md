@@ -1,6 +1,6 @@
 # Challenge: Sharing (448 Points)
 
-### Category: Network / File Sharing
+### Category: Pwn
 
 ### Description
 In this challenge, I needed to "pwn the service to get the flag" by exploring an `rsync` file-sharing service located at `challenges.ctf.sikt.no:5009`. The goal was to access and retrieve the flag file from the service.
