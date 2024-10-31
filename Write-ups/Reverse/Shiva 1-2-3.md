@@ -8,23 +8,23 @@ These challenges required finding three separate flags within an Android applica
 - **Shiva2**: Find the second flag, which is "waiting for your signature."
 - **Shiva3**: Find the third flag, which is "not positive."
 
-![Shiva 1](../Bilder/Picture11.png)
-![Shiva 2](../Bilder/Picture12.png)
-![Shiva 3](../Bilder/Picture13.png)
+![Shiva 1](../Images/Picture11.png)
+![Shiva 2](../Images/Picture12.png)
+![Shiva 3](../Images/Picture13.png)
 
 ### Solution
 
 1. **Decompiling the APK**:
    I used **Apktool** to decompile the `shiva.apk` file, accessing its resources and code structure.
 
-   ![Apktool Decompiling Output](../Bilder/Picture14.png)
+   ![Apktool Decompiling Output](../Images/Picture14.png)
 
    This command extracted the contents of the APK file, revealing various folders and files, including `AndroidManifest.xml`, `res`, and `smali`.
 
 2. **Searching for Flags**:
    After decompiling, I used **grep** to search for any instances of `CTF` within the extracted files, as the flags were expected to follow the `SiktCTF{}` format.
 
-   ![Grep Output](../Bilder/Picture16.png)
+   ![Grep Output](../Images/Picture16.png)
 
    The search led me to the `strings.xml` file in the `res/values` folder, where I found the following entries:
 
@@ -38,7 +38,7 @@ These challenges required finding three separate flags within an Android applica
    - **Shiva (First Flag)**: `SiktCTF{UnlimitedPower}`
    - **Shiva2 (Second Flag)**: `SiktCTF{TheFinalDaysAreUponUs}`
    - **Shiva3 (Third Flag)**: `SiktCTF{InTheEndHopePrevails}`
-   ![Grep Output](../Bilder/Picture17.png)
+   ![Grep Output](../Images/Picture17.png)
    
 I submitted each of these flags for the respective challenges, and they were all accepted.
 
