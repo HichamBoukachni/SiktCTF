@@ -22,7 +22,6 @@ In this challenge, I encountered a sequence of unfamiliar symbols and was tasked
    ![Decrypted Message](../Bilder/Picture49.png)
    ![Decrypted Message](../Bilder/Picture51.png)
    
-
 4. **Interpreting the Flag:**
    After testing different flag formats based on this message, I realized that the challenge prompt's instruction to "write what you find" implied a direct submission. Thus, I formatted the answer accordingly.
 
