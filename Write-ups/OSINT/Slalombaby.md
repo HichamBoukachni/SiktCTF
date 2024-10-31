@@ -14,7 +14,7 @@ This challenge was a classic **OSINT** task that required identifying a specific
 1. **Understanding the Task**:
    Based on the description, we needed to identify a mountain from an image and the clue about a previous visit. The flag format was given as `SiktCTF{themountain}`.
 
-![Slalombaby Image](../Bilder/Picture1.png)
+![Slalombaby Image](../Images/Picture1.png)
 
 2. **Downloading and Analyzing the Image**:
    I downloaded the image labeled `slalombaby`, which showed a snowy mountain landscape with a skier. 
@@ -23,22 +23,22 @@ This challenge was a classic **OSINT** task that required identifying a specific
 3. **Using Reverse Image Search**:
    Using **Google Reverse Image Search**, I uploaded the image to find any matches that could help identify the location.
    
-   ![Slalombaby Image](../Bilder/Picture2.png) 
+   ![Slalombaby Image](../Images/Picture2.png) 
 
 5. **Match Found: Åre, Sweden**:
    The image search returned several matching landscapes, with one clear match indicating Åre, a popular ski resort in Sweden.
 
-   ![Slalombaby Image](../Bilder/Picture3.png)
+   ![Slalombaby Image](../Images/Picture3.png)
    
 7. **Submitting the Flag**:
    Following the flag format, I entered `SiktCTF{Åre}` and submitted it.
 
-   ![Slalombaby Image](../Bilder/Picture4.png)
+   ![Slalombaby Image](../Images/Picture4.png)
 
 9. **Result**:
    The flag was accepted, confirming that Åre was indeed the correct mountain referenced in the challenge!
 
-   ![Slalombaby Image](../Bilder/Picture5.png)
+   ![Slalombaby Image](../Images/Picture5.png)
 
 ### Takeaways
 This task demonstrated the effectiveness of **OSINT techniques** like reverse image search to solve challenges with limited initial information.
